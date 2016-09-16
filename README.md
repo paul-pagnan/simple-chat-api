@@ -1,7 +1,7 @@
 #Simple Chat API
 A simple chat API for the coderfactory blog article
 
-Run the API by running:
+Start the API by running:
 ```
 npm install
 
