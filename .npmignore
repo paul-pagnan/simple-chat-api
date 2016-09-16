@@ -1,0 +1,8 @@
+src
+test
+.npmrc
+.npmignore
+.eslintrc
+.gitignore
+.babelrc
+lib/**.map
