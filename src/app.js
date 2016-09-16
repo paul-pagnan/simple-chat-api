@@ -29,7 +29,7 @@ socketIo.on('connection', socket => {
   console.log(`${username} connected`);
 
   socket.on('client:message', data => {
-    console.log(`${username}: ${data}`);
+    console.log(`${data.username}: ${data.message}`);
 
     // message received from client, now broadcast it to everyone else
     socket.broadcast.emit('server:message', data);
