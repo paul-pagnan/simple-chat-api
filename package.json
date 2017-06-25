@@ -5,7 +5,7 @@
   "main": "lib/app.js",
   "author": "Paul Pagnan <paul@pagnan.com.au>",
   "scripts": {
-    "start": "NODE_ENV=development node ./lib/app.js",
+    "start": "node ./lib/app.js",
     "compile": "babel -d lib/ src/",
     "run": "babel -d lib/ src/ && node lib/app"
   },
