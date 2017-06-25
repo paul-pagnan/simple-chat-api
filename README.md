@@ -9,9 +9,3 @@ npm run compile
 
 npm start
 ```
-
-Note: Windows users should replace the start script *line 8* in **package.json** with 
-```
-set NODE_ENV=development && node ./lib/app.js
-```
-before running `npm start`.
